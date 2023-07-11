@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caldeira Performance</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="pomodoro.html" class="cabecalho__menu__link">Pomodoro</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <div class="timer">
+            <div class="time" id="minutos">00</div>
+            <div class="separador">:</div>
+            <div class="time" id="segundos">00</div>
+            <div class="separador">:</div>
+            <div class="time" id="milisegundos">000</div>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="start">Começar</button>
+            <button class="btn" id="pause">Pausar</button>
+            <button class="btn" id="resume">Continuar</button>
+            <button class="btn" id="restart">Recomeçar</button>
+        </div>
+        <div class="timer">
+            <div class="time" id="min">00</div>
+            <div class="separador">:</div>
+            <div class="time" id="seg">00</div>
+            <div class="separador">:</div>
+            <div class="time" id="mili">000</div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <img src="./pomodoro.png" alt="pomodoro" class="rodape__imagem">
+    </footer> 
+</body>
+<script src="./main.js"></script>
+</html>
